@@ -1,0 +1,79 @@
+body {
+    background: linear-gradient( black, slategray);
+    margin: 0px;
+    background-color: s;
+}
+.ruler {
+    border: 2px solid black;
+}
+.header{
+    text-align: center;
+    /* background: linear-gradient(to bottom, burlywood, darkgoldenrod); */
+    padding: 8px;
+}
+.heading {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: blanchedalmond;
+    font-weight: bolder;
+    text-shadow: 2px 1px black;
+}
+.content{
+    display: inline-flex;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.box1 {
+    border: 1px solid blanchedalmond;
+    border-radius: 5px;
+    width: 450px;
+    height: 250px;
+    background-color: blanchedalmond;
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 50px;
+    transform: rotate(-5deg);
+    z-index: -1;
+    margin-left: 200px;
+    margin-right: -20px;
+    box-shadow: 2px 2px blanchedalmond;
+}
+.intro {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    margin: 30px;
+}
+.image {
+    position: fixed;
+    width: 250px;
+    height: 300px;
+    margin-top: 115px;
+    margin-bottom: 100px;
+    /* transform: rotate(5deg); */
+}
+.box2 {
+    border: 1px solid blanchedalmond;
+    border-radius: 5px;
+    width: 450px;
+    height: 250px;
+    background-color: blanchedalmond;
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 100px;
+    transform: rotate(5deg);
+    z-index: -1;
+    margin-left: 235px;
+    box-shadow: 2px 2px blanchedalmond;
+}
+.project {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: x-large;
+    margin: 30px;
+}
+.footer{
+    text-align: center;   
+    margin-top: 52px;
+}
+.detail {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
